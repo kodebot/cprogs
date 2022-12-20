@@ -5,7 +5,7 @@
 # you can just modify the variables.
 # https://stackoverflow.com/a/1484873/3208697
 
-TARGET = Sdl2Play
+TARGET = program 
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall

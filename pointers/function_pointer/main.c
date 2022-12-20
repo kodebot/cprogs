@@ -2,7 +2,11 @@
 
 
 // function pointer examples
+// looks like a normal function declaration but with paranthesis around * to tell compiler that this
+// is not a function reutrning int pointer rather the function itself is a pointer => function pointer
+// WHY: it is useful to pass around functions like a normal value
 int run(int (*)(int,int), int, int);
+
 int add(int, int);
 int sub(int, int);
 int div(int, int);
